@@ -1,0 +1,156 @@
+body{
+    margin:0;
+    font-family:  'Calibri';
+}
+
+.container{
+    width: 68%;
+    margin: auto;
+}
+
+header{
+    background-color: #FBFBFB;
+    display: flex;
+    padding-top: 45px;
+}
+.myName{
+    margin-left: 14%;
+    flex: 1;
+    
+}
+
+.myName h1{
+    margin-top: 3%;
+    font-size: 2.8em;
+}
+
+.contactInfo{
+    margin-right: 12%;    
+}
+a{
+    font-family: 'Calibri';
+    text-decoration: none;
+    color: #555555;
+}
+p{
+    margin-top: 4%;
+    color: #555555;
+
+}
+.fa{
+    color:#77448B ;
+}
+
+.section{
+    width: 90%;
+    margin: 0 auto 4% auto;
+}
+
+.section p{
+    margin-top: 1%;
+}
+h2{
+    margin-bottom: 0px;
+
+    border-bottom: 1px inset black;
+}
+h3{
+    color:  #438ed4;
+    font-size: 1.4em;
+}
+h4{
+        color: #555555;
+}
+.bold{
+    font-weight: bold;
+}
+
+.contain{
+    display: flex;
+    text-align: center;
+}
+.contain p{
+    margin:0;
+    padding: 0;
+}
+.contain h3{
+    margin-bottom: 0;
+}
+.tech{
+    width: 50%;
+    flex:1;
+}
+
+.soft{
+    width: 50%;
+}
+.languages{
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .container{
+        width:80%;
+
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .container{
+        width:100%;
+        
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .container{
+        width:100%  
+    }
+    header{
+        background-color: #FBFBFB;
+        display: flex;
+        padding-top: 30px;
+    }
+    .myName{
+        margin-left: 8%;
+        flex: 1;
+        
+    }
+    
+    .myName h1{
+        margin-top: 2%;
+        font-size: 2.4em;
+    }
+    
+    .contactInfo{
+        margin-right:1%;    
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container{
+        width:100%  
+    }
+    header{
+        background-color: #FBFBFB;
+        display: flex;
+        padding-top: 20px;
+    }
+    .myName{
+        margin-left: 8%;
+        flex: 1;
+        
+    }
+    
+    .myName h1{
+        margin-top: 2%;
+        font-size: 2em;
+    }
+    
+    .contactInfo{
+        margin-right:1%;    
+    }
+    .contactInfo p{
+        font-size: 0.8em;
+    }
+}
